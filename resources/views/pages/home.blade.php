@@ -16,7 +16,7 @@ DC Comics - Home
                 <div class="cardSeries">
                     <a href="#">
                         <div class="imgWrap">
-                            <img class="img_series" src="" alt="">
+                            <img class="img_series" src="{{$elem['thumb']}}" alt="{{$elem['title']}}">
                         </div>
                         <div class="infoWrap">
                             <p class="title_series">{{$elem['title']}}</p>
