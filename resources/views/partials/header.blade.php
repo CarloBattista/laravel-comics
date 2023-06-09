@@ -1,45 +1,41 @@
 <div class="header">
-    <div class="w-80">
-        <div class="left_region">
-            <img class="logo" src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="dc logo">
-        </div>
-        <div class="center_region">
-            <ul class="nav">
-                <li class="listNav">
-                    <a href="/">Characters</a>
-                </li>
-                <li class="listNav">
-                    <a href="/">Comics</a>
-                </li>
-                <li class="listNav">
-                    <a href="/">Movies</a>
-                </li>
-                <li class="listNav">
-                    <a href="/">Tv</a>
-                </li>
-                <li class="listNav">
-                    <a href="/">Games</a>
-                </li>
-                <li class="listNav">
-                    <a href="/">Collectibles</a>
-                </li>
-                <li class="listNav">
-                    <a href="/">Videos</a>
-                </li>
-                <li class="listNav">
-                    <a href="/">Fans</a>
-                </li>
-                <li class="listNav">
-                    <a href="/">News</a>
-                </li>
-                <li class="listNav">
-                    <a href="/">
-                        Shop
-                        <i class="fa-solid fa-caret-down"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="right_region"></div>
+    <div class="inner_header">
+        <!-- Logo -->
+        <a href="/" class="logoSite">
+            <img class="icon_logo" src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="">
+        </a>
+        <!-- Nav -->
+        <ul class="nav">
+            <li class="listItem">
+                <a class="linkPage" href="/characters">Characters</a>
+            </li>
+            <li class="listItem currentPage">
+                <a class="linkPage" href="/comics">Comics</a>
+            </li>
+            <li class="listItem">
+                <a class="linkPage" href="/movies">Movies</a>
+            </li>
+            <li class="listItem">
+                <a class="linkPage" href="/tv">Tv</a>
+            </li>
+            <li class="listItem">
+                <a class="linkPage" href="/games">Games</a>
+            </li>
+            <li class="listItem">
+                <a class="linkPage" href="/collectibles">Collectibles</a>
+            </li>
+            <li class="listItem">
+                <a class="linkPage" href="/videos">Videos</a>
+            </li>
+            <li class="listItem">
+                <a class="linkPage" href="/fans">Fans</a>
+            </li>
+            <li class="listItem">
+                <a class="linkPage" href="/news">News</a>
+            </li>
+            <li class="listItem">
+                <a class="linkPage" href="/shop">Shop</a>
+            </li>
+        </ul>
     </div>
 </div>

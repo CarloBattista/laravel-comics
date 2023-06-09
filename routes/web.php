@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $titlePage = 'DC Comics - Home';
 
-    $arrayComics = config('db');
+    $arrayComics = config('db.comicsDB');
 
     return view('pages.home', compact('titlePage', 'arrayComics') );
 })->name('home');
